@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Averta-Regular';
+  src: url("../fonts/Averta-Regular/Averta-Regular.woff") format("woff"), url("../fonts/Averta-Regular/Averta-Regular.ttf") format("truetype"), url("../fonts/Averta-Regular/Averta-Regular.svg#Averta-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Averta-Bold';
+  src: url("../fonts/Averta-Bold/Averta-Bold.eot");
+  src: url("../fonts/Averta-Bold/Averta-Bold.woff2") format("woff2"), url("../fonts/Averta-Bold/Averta-Bold.woff") format("woff"), url("../fonts/Averta-Bold/Averta-Bold.ttf") format("truetype"), url("../fonts/Averta-Bold/Averta-Bold.svg#Averta-Bold") format("svg"), url("../fonts/Averta-Bold/Averta-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Averta-Semibold';
+  src: url("../fonts/Averta-Semibold/Averta-Semibold.eot");
+  src: url("../fonts/Averta-Semibold/Averta-Semibold.woff2") format("woff2"), url("../fonts/Averta-Semibold/Averta-Semibold.woff") format("woff"), url("../fonts/Averta-Semibold/Averta-Semibold.ttf") format("truetype"), url("../fonts/Averta-Semibold/Averta-Semibold.svg#Averta-Semibold") format("svg"), url("../fonts/Averta-Semibold/Averta-Semibold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Averta-Regular", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.hidden {
+  display: none; }
+
+.empty {
+  height: 230px; }
+
+h1, h2, h3, h4, h5, h5 {
+  margin: 0; }
+
+ul > li {
+  list-style: none;
+  display: inline-block; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: medium none; }
+
+/*a {
+    @include links(orange, blue, yellow, teal);
+}*/
+input {
+  outline: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+button {
+  outline: none;
+  border: none 0; }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default; }
+
+.pull-left {
+  float: left !important; }
+
+.pull-right {
+  float: right !important; }
+
+.transform-x-y {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
+
+.transY {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute; }
+
+.transX {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute; }
+
+.inline-svg-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  fill: lightblue;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.5s; }
+  .inline-svg-icon:hover {
+    fill: #86c5da; }
+
+.btn {
+  width: 210px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.15); }
+  .btn-create {
+    background-color: white; }
+  .btn-join {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: solid 2px white; }
